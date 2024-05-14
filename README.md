@@ -1,4 +1,5 @@
 # CÓDIGO ACTIVIDAD 7
+```
 #!/bin/bash
 COMPARA=$(gsutil ls | grep "bkt07")
 EQUIPO="LOS MIXTOS"
@@ -32,3 +33,4 @@ gsutil rm -r gs://sit-devops-training-bkt07
 }
 validacion
 impresion
+```
